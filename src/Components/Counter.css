@@ -1,0 +1,23 @@
+body {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.buttons {
+    padding: 10px 25px;
+    font-size: 16px;
+    margin-right: 20px;
+    background-color: #5386E4;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.buttons:hover {
+    background-color: #4c4b63;
+}
